@@ -131,29 +131,31 @@ a:active {
   font-style: italic;
 }
 
-/* pseudo class chooses a high level, therefore it will not be overridden by the a:link style.  */
+
+/* pseudo class chooses a high level, therefore it will not be overridden by the a:link style */
+
 /* a {
-  color: red;
+  color: yellow;
 } */
 
 /* Resolving conflicts */
+
 /* #copyright {
   color: red;
-}
+} */
 
-.copyright {
+/* .copyright {
   color: blue;
-}
+} */
 
-.text {
+/* .text {
   color: yellow;
-}
+} */
 
-footer p {
+/* footer p {
   color: green;
-}
+} */
 
-
-footer p {
-  color: green !important;
+/* footer {
+  color: orange;
 } */
