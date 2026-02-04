@@ -103,8 +103,7 @@ li:nth-child(even) {
   /* color: red; */
 }
 
-/* Misconception this won't work! */
-article p:first-child {
+article p:last-child {
   color: red;
 }
 
@@ -116,8 +115,7 @@ a:link {
 }
 
 a:visited {
-  /* color: #777; */
-  color: #1098ad;
+  color: #1089ad;
 }
 
 a:hover {
