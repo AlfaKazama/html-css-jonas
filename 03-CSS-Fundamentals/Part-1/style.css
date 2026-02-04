@@ -1,4 +1,4 @@
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -28,5 +28,13 @@ h4 {
 }
 
 p {
-  
-} */
+  font-size: 22px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+article header p {
+  font-style: italic;
+}
