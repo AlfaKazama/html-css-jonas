@@ -156,6 +156,7 @@ a:active {
   color: green;
 } */
 
-/* footer {
-  color: orange;
-} */
+
+footer p{
+  color: orange !important;
+}
