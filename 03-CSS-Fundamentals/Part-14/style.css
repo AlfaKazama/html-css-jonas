@@ -15,17 +15,17 @@ body {
 
 .container {
   width: 800px;
-  /* margin-left: auto;
-  margin-right: auto; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   margin: 0 auto;
   /* position: relative; */
 }
 
 .main-header {
   background-color: #f7f7f7;
-  /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px; */
+  /* padding: 20px; */
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
@@ -36,7 +36,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  margin-bottom: 48px;
 }
 
 .post-header {
@@ -48,8 +48,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
   padding: 50px 0;
   width: 500px;
 }
@@ -94,7 +94,7 @@ p {
 ul,
 ol {
   margin-left: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 
 li {
@@ -118,10 +118,10 @@ li:last-child {
 #author {
   font-style: italic;
   font-size: 18px;
-}
+} 
 
 #copyright {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .related-author {
@@ -192,11 +192,11 @@ a:active {
 }
 
 nav a:link {
-  /* background-color: orangered;
-  margin: 20px;
-  padding: 20px;
+  /* background-color: orangered; */
+  /* margin: 20px; */
+  /* padding: 20px; */
 
-  display: block; */
+  /* display: block; */
 
   margin-right: 30px;
   margin-top: 10px;
@@ -213,8 +213,8 @@ button {
   cursor: pointer;
 
   position: absolute;
-  /* top: 50px;
-  left: 50px; */
+  /* top: 50px; */
+  /* left: 50px; */
   bottom: 50px;
   right: 50px;
 }
@@ -232,7 +232,7 @@ h1::first-letter {
   color: red; 
 } */
 
-/* This is the adjaent sibling selector */
+/* This is the adjacent sibling selector */
 h3 + p::first-line {
   color: red;
 }
@@ -242,7 +242,7 @@ h2 {
   position: relative;
 }
 
-/* h2::before{
+/* h2::before {
 } */
 
 h2::after {
@@ -289,3 +289,4 @@ footer p {
 nav strong {
   font-size: 18px;
 } */
+
