@@ -18,7 +18,6 @@ body {
   /* padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-
 }
 
 nav {
@@ -37,12 +36,10 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-
   /* padding-top: 50px; */
   /* padding-bottom: 50px; */
-  padding: 50px 0px;
+  padding: 50px 0;
 }
-
 
 h1,
 h2,
@@ -140,15 +137,14 @@ li:last-child {
   font-style: italic;
 }
 
-
 li:nth-child(even) {
   /* color: red; */
 }
 
 /* Misconception this won't work! */
-/* article p:first-child {
+article p:first-child {
   color: red;
-} */
+}
 
 /* Styling links */
 
@@ -204,4 +200,3 @@ footer p {
 nav strong {
   font-size: 18px;
 } */
-
