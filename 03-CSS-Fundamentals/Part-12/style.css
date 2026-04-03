@@ -52,7 +52,6 @@ aside {
 }
 
 /* SMALLER ELEMENTS */
-
 h1,
 h2,
 h3 {
@@ -186,6 +185,7 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+  /* margin: 100px; */ /* <img> is inline-block element, because we can set height and  content width and height will adjust not block */ 
 }
 
 nav a:link {
