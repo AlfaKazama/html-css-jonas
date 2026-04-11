@@ -81,7 +81,7 @@ body {
   margin: 0 auto;
   gap: 9.6rem;
   align-items: center;
-  /* background-color: #fdf2e9; */
+  /* background-color: #f2f2e9; */
 }
 
 .heading-primary {
@@ -110,7 +110,7 @@ body {
   /* transition: all 1s; */
   /* Put transition on original "state */
   /* transition: background-color 1s; */
-  transition: background-color 0.3s;
+  transition: backround-color 0.3s;
 }
 
 .btn--full:link,
