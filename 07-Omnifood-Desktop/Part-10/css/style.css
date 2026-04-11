@@ -78,7 +78,7 @@ body {
 .grid {
   display: grid;
   gap: 9.6rem;
-  /* grid-template-columns: repeat(2, 1fr);  */
+  /* grid-template-columns: repeat(2, 1fr); */
   /* same with writing 1fr 1fr */
 }
 
@@ -269,13 +269,13 @@ body {
   font-weight: 700;
 }
 
+
 /***************************/
 /* HOW IT WORKS SECTION */
 /***************************/
-
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+  background-color: orangered
 }
 
 /* .section-how div div {
@@ -287,12 +287,14 @@ body {
 /* .section-how div:nth-child(1) {
   background-color: aqua;
 }
+
 .section-how div:nth-child(2) {
   background-color: blue;
 }
 .section-how div:nth-child(3) {
   background-color: violet;
 }
+
 .section-how div:nth-child(4) {
   background-color: yellow;
 } */
