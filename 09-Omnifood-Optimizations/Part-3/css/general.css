@@ -82,7 +82,7 @@ body {
   font-weight: 400;
   color: #555;
 
-  /* Only works if there is nothig absolutely positioned in relation to body */
+  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
