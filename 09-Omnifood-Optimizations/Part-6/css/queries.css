@@ -20,7 +20,7 @@ Instead, 1 rem = 1em = 16px */
 }
 
 /***************************/
-/* BELOW 1200px (Landscape Tablets) -> 86 * 16 */
+/* BELOW 1200px (Landscape Tablets) -> 75 * 16 */
 /***************************/
 
 @media (max-width: 75em) {
